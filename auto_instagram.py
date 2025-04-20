@@ -29,12 +29,12 @@ class Automacao:
         ]
     )
         self.site ="https://www.instagram.com/"
-        self.user = "gabrielhrabelos"
-        self.password = "*Gaherasi031001#"
+        self.user = "usuario" #username a ser preenchido no login
+        self.password = "password" #senha do ususario
 
     def iniciar(self):
         self.doLogin()
-        self.pesquisarInstagram("rebecalelis")
+        self.pesquisarInstagram("nvidia")
 
     def doLogin(self):
         self.driver.get(self.site)
