@@ -30,7 +30,7 @@ class Automacao:
     )
         self.site ="https://www.instagram.com/"
         self.user = "usuario" #username a ser preenchido no login
-        self.password = "password" #senha do ususario
+        self.password = "password" #senha do usuario
 
     def iniciar(self):
         self.doLogin()
